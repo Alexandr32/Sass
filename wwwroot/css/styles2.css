@@ -1,0 +1,29 @@
+.marker-red {
+  width: 100px;
+  height: 150px;
+  background: red; }
+
+.marker-enlarged-red {
+  width: 100px;
+  height: 150px;
+  background: red; }
+
+.marker-blue {
+  width: 100px;
+  height: 100px;
+  background: blue; }
+
+.marker-enlarged-blue {
+  width: 100px;
+  height: 150px;
+  background: blue; }
+
+.marker-green {
+  width: 100px;
+  height: 100px;
+  background: green; }
+
+.marker-enlarged-green {
+  width: 100px;
+  height: 150px;
+  background: green; }

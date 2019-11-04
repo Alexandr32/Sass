@@ -1,0 +1,43 @@
+﻿$redColor: red;
+$blueColor: blue;
+$greenColor: green;
+$width: 100px;
+
+
+@mixin marker($color, $scale: 1) {
+    width: 100px;
+    height: $width * $scale;
+    background: $color;
+}
+
+@mixin marker-enlarged($color) {
+    @include marker($color, 1.5);
+}
+
+.marker {
+    &-red {
+        @include marker-enlarged(red);
+    }
+
+    &-enlarged-red {
+        @include marker-enlarged(red);
+    }
+
+
+    &-blue {
+        @include marker(blue);
+    }
+
+    &-enlarged-blue {
+        @include marker-enlarged(blue);
+    }
+
+    &-green {
+        @include marker(green);
+    }
+
+    &-enlarged-green {
+        @include marker-enlarged(green);
+    }
+}
+
